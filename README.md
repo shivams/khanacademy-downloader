@@ -3,7 +3,7 @@ This is a quick bash script for downloading Khan Academy videos for a particular
 
 This script should work on all modern Linux Desktop distributions (as of July 2015).
 
-###Prerequisites:
+### Prerequisites:
 * curl
 * html-xml-utils
 * youtube-dl
@@ -13,7 +13,7 @@ To install the prerequisites on a Debian(Ubuntu) based system, just do this:
     sudo apt-get install html-xml-utils curl python-pip
     sudo pip install youtube-dl
 
-###Running the script
+### Running the script
 Run the script by providing it an argument for the URL of the KhanAcademy course/topic you wish to download the videos for. 
 For exmample, if you wish to download "1900 - present: The recent past" course whose url is `https://www.khanacademy.org/humanities/history/euro-hist`, then just do this: 
 
